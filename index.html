@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SEO -->
+  <title>SHEVENT AFRICA | The A–Z of Event Planning</title>
+  <meta name="description" content="SHEVENT AFRICA, the A–Z of event planning: event planning and coordination, ushers, protocol and security, catering, decoration, photography and media, and event anchoring. Every detail. Beautifully coordinated.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#74152F">
+  <!-- [PLACEHOLDER] Once the domain is confirmed, add:
+       <link rel="canonical" href="https://your-domain/"> -->
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SHEVENT AFRICA | The A–Z of Event Planning">
+  <meta property="og:description" content="The A–Z of Event Planning. Every detail. Beautifully coordinated.">
+  <!-- [PLACEHOLDER] Once the domain is confirmed, add og:url and og:image (full https URLs) -->
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon: [PLACEHOLDER: add assets/favicon/ files and link them here] -->
+
+  <!-- Fonts: Cormorant Garamond (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 and Bootstrap Icons (official CDNs) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" crossorigin="anonymous">
+
+  <!-- Custom styles load last so they can override Bootstrap -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="100" tabindex="0">
+
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ HEADER / NAVIGATION ============ -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+      <div class="container">
+
+        <a class="navbar-brand wordmark" href="#home" aria-label="SHEVENT AFRICA, home">
+          <!-- [PLACEHOLDER: replace with <img src="assets/images/logo.svg" alt="SHEVENT AFRICA" width="" height=""> when logo is supplied] -->
+          <span class="wordmark__name">SHEVENT</span>
+          <span class="wordmark__sub">AFRICA</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-label="Open menu">
+          <i class="bi bi-list" aria-hidden="true"></i>
+        </button>
+
+        <!-- Offcanvas on mobile, inline on desktop (Bootstrap handles focus trap and Esc) -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="mainNav" aria-labelledby="mainNavLabel">
+          <div class="offcanvas-header">
+            <span class="offcanvas-title wordmark__name" id="mainNavLabel">SHEVENT AFRICA</span>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close menu"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-lg-auto">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <a class="btn btn-brand" href="#contact">Enquire</a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HOME / HERO ============ -->
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-7 order-2 order-lg-1">
+            <p class="eyebrow">Event management company</p>
+            <h1 class="hero__title" id="hero-title">The <span class="az" aria-hidden="true">A–Z</span><span class="visually-hidden">A to Z</span> of Event Planning.</h1>
+            <p class="hero__tagline">Every detail. Beautifully coordinated.</p>
+            <!-- [REVIEW: supporting sentence is neutral draft copy] -->
+            <p class="lead hero__lead">Seven services, one coordinated team: from planning and protocol to catering, decoration and media.</p>
+            <div class="hero__actions">
+              <a class="btn btn-brand" href="#contact">Enquire</a>
+              <!-- href is a safe fallback; script.js will build the wa.me link from the number in its config -->
+              <a class="btn btn-brand-outline js-whatsapp" href="https://wa.me/2349066524606?text=Hello%20SHEVENT%20AFRICA%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20an%20event." target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i> Chat on WhatsApp<span class="visually-hidden"> (opens in a new tab)</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2">
+            <figure class="arch-frame">
+              <img src="https://images.unsplash.com/photo-1772127822525-7eda37383b9f?auto=format&fit=crop&w=880&h=1012&q=70" alt="Elegant outdoor wedding reception with a draped canopy and tables" width="880" height="1012" fetchpriority="high">
+            </figure>
+          </div>
+
+        </div>
+        <ul class="service-index list-unstyled" aria-label="Our services">
+          <li><a href="#service-decoration">Decoration</a></li>
+          <li><a href="#service-edibles">Edibles (Catering)</a></li>
+          <li><a href="#service-anchoring">Event Anchoring</a></li>
+          <li><a href="#service-planning">Event Planning &amp; Coordination</a></li>
+          <li><a href="#service-photography">Photography &amp; Media</a></li>
+          <li><a href="#service-protocol">Protocol, Security &amp; Escort</a></li>
+          <li><a href="#service-ushers">Ushers</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section section--alt" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <div class="col-lg-5">
+            <figure class="photo-frame">
+              <!-- Temporary stock photo: replace with a real team or event photo -->
+              <img src="https://images.unsplash.com/photo-1641996250159-9d2bbfb483fa?auto=format&fit=crop&w=800&h=1000&q=70" alt="Wedding reception set with black tables and white linens" width="800" height="1000" loading="lazy">
+            </figure>
+          </div>
+
+          <div class="col-lg-7">
+            <p class="eyebrow">About us</p>
+            <h2 class="section-title" id="about-title">The A–Z of Event Planning</h2>
+            <!-- [REVIEW: draft promise line] -->
+            <p class="about__promise">From the first plan to the last photograph, one team looks after the details.</p>
+            <!-- [PLACEHOLDER: company story, founding details, mission and coverage area to be supplied by the client] -->
+            <p>[PLACEHOLDER: introduction to the company and its story.]</p>
+            <p>[PLACEHOLDER: mission, values and areas served.]</p>
+            <p class="about__services-label">What we do:</p>
+            <ul class="about__services list-unstyled">
+              <li>Decoration</li>
+              <li>Edibles (Catering)</li>
+              <li>Event Anchoring</li>
+              <li>Event Planning &amp; Coordination</li>
+              <li>Photography &amp; Media</li>
+              <li>Protocol, Security &amp; Escort</li>
+              <li>Ushers</li>
+            </ul>
+            <blockquote class="pull-quote">Every detail. Beautifully coordinated.</blockquote>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section section--dark" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Our services</p>
+          <h2 class="section-title" id="services-title">Everything Your Event Needs. From A to Z.</h2>
+          <!-- [REVIEW: draft intro] -->
+          <p>Seven services, listed alphabetically. Choose one, or combine as many as your event needs.</p>
+        </header>
+
+        <!-- Temporary stock photos (Unsplash). Replace each with a real photo from the company's events. -->
+        <div class="row g-4 service-grid">
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card" id="service-decoration">
+              <img class="service-card__img" src="https://images.unsplash.com/photo-1737682599438-319b61711b5f?auto=format&fit=crop&w=800&h=600&q=70" alt="Elegant long table with a chandelier overhead" width="800" height="600" loading="lazy">
+              <div class="service-card__body">
+                <i class="bi bi-flower1 service-card__icon" aria-hidden="true"></i>
+                <h3 class="service-card__title">Decoration</h3>
+                <p class="service-card__text">Styling and decor that shape the look and feel of your venue.</p>
+                <a class="service-card__link" href="#contact" data-service="Decoration">Enquire about this service</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card" id="service-edibles">
+              <img class="service-card__img" src="https://images.unsplash.com/photo-1742436448781-fe5eb077abd4?auto=format&fit=crop&w=800&h=600&q=70" alt="Buffet station set up for a catered event" width="800" height="600" loading="lazy">
+              <div class="service-card__body">
+                <i class="bi bi-cup-hot service-card__icon" aria-hidden="true"></i>
+                <h3 class="service-card__title">Edibles (Catering)</h3>
+                <p class="service-card__text">Food and refreshments for your event.</p>
+                <a class="service-card__link" href="#contact" data-service="Edibles (Catering)">Enquire about this service</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card" id="service-anchoring">
+              <img class="service-card__img" src="https://images.unsplash.com/photo-1730875647697-eace28e2a77e?auto=format&fit=crop&w=800&h=600&q=70" alt="Host standing on a stage holding a microphone" width="800" height="600" loading="lazy">
+              <div class="service-card__body">
+                <i class="bi bi-mic service-card__icon" aria-hidden="true"></i>
+                <h3 class="service-card__title">Event Anchoring</h3>
+                <p class="service-card__text">A confident anchor to guide your programme from start to finish.</p>
+                <a class="service-card__link" href="#contact" data-service="Event Anchoring">Enquire about this service</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card" id="service-planning">
+              <img class="service-card__img" src="https://images.unsplash.com/photo-1558478551-16a013a18bd8?auto=format&fit=crop&w=800&h=600&q=70" alt="Planner writing in a notebook at a desk" width="800" height="600" loading="lazy">
+              <div class="service-card__body">
+                <i class="bi bi-calendar-check service-card__icon" aria-hidden="true"></i>
+                <h3 class="service-card__title">Event Planning &amp; Coordination</h3>
+                <p class="service-card__text">Planning and on-the-day coordination so every part of your event works together.</p>
+                <a class="service-card__link" href="#contact" data-service="Event Planning &amp; Coordination">Enquire about this service</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card" id="service-photography">
+              <img class="service-card__img" src="https://images.unsplash.com/photo-1551780165-f2a8e6d86eb8?auto=format&fit=crop&w=800&h=600&q=70" alt="Photographer holding a camera" width="800" height="600" loading="lazy">
+              <div class="service-card__body">
+                <i class="bi bi-camera service-card__icon" aria-hidden="true"></i>
+                <h3 class="service-card__title">Photography &amp; Media</h3>
+                <p class="service-card__text">Photo and media coverage to keep the memories of your event.</p>
+                <a class="service-card__link" href="#contact" data-service="Photography &amp; Media">Enquire about this service</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card" id="service-protocol">
+              <img class="service-card__img" src="https://images.unsplash.com/photo-1760228604788-db8a36d5c1a3?auto=format&fit=crop&w=800&h=600&q=70" alt="Security guard watching over a gathering under a tent" width="800" height="600" loading="lazy">
+              <div class="service-card__body">
+                <i class="bi bi-shield-check service-card__icon" aria-hidden="true"></i>
+                <h3 class="service-card__title">Protocol, Security &amp; Escort</h3>
+                <p class="service-card__text">Protocol, security and escort support for your guests and dignitaries.</p>
+                <a class="service-card__link" href="#contact" data-service="Protocol, Security &amp; Escort">Enquire about this service</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <article class="service-card" id="service-ushers">
+              <img class="service-card__img" src="https://images.unsplash.com/photo-1607861884586-c7cfaed16290?auto=format&fit=crop&w=800&h=600&q=70" alt="Outdoor wedding aisle lined with chairs and lights" width="800" height="600" loading="lazy">
+              <div class="service-card__body">
+                <i class="bi bi-people service-card__icon" aria-hidden="true"></i>
+                <h3 class="service-card__title">Ushers</h3>
+                <p class="service-card__text">Courteous ushers to welcome, seat and guide your guests.</p>
+                <a class="service-card__link" href="#contact" data-service="Ushers">Enquire about this service</a>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Events gallery</p>
+          <h2 class="section-title" id="gallery-title">Moments from our events</h2>
+        </header>
+
+        <!-- Filter chips. script.js will toggle aria-pressed and show/hide items by data-category.
+             Keep only categories that have at least three real photos. -->
+        <div class="gallery__filters" role="group" aria-label="Filter gallery by service">
+          <button type="button" class="chip is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="chip" data-filter="decoration" aria-pressed="false">Decoration</button>
+          <button type="button" class="chip" data-filter="edibles" aria-pressed="false">Edibles</button>
+          <button type="button" class="chip" data-filter="anchoring" aria-pressed="false">Anchoring</button>
+          <button type="button" class="chip" data-filter="planning" aria-pressed="false">Planning</button>
+          <button type="button" class="chip" data-filter="photography" aria-pressed="false">Photography &amp; Media</button>
+          <button type="button" class="chip" data-filter="protocol" aria-pressed="false">Protocol &amp; Security</button>
+          <button type="button" class="chip" data-filter="ushers" aria-pressed="false">Ushers</button>
+        </div>
+        <p class="visually-hidden" id="gallery-status" role="status" aria-live="polite"></p>
+
+        <!-- Temporary stock photos from Unsplash (free to use under the Unsplash License). Replace with real event photos and captions.
+             Photographers: D. Paul (decoration), E. Omachi (catering), A. Williams (planning), J. Reis (aisle), R. Brutyo (camera),
+             A. Gallegos (stage), Avesta (security), V. Goswami (reception, canopy). -->
+        <ul class="row g-3 gallery__grid list-unstyled">
+          <li class="col-6 col-lg-4 gallery__item" data-category="decoration">
+            <figure><img src="https://images.unsplash.com/photo-1737682599438-319b61711b5f?auto=format&fit=crop&w=640&h=800&q=70" data-full="https://images.unsplash.com/photo-1737682599438-319b61711b5f?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Elegant long table with a chandelier overhead" width="640" height="800" loading="lazy">
+            <figcaption>Sample image: Decoration</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="edibles">
+            <figure><img src="https://images.unsplash.com/photo-1742436448781-fe5eb077abd4?auto=format&fit=crop&w=640&h=640&q=70" data-full="https://images.unsplash.com/photo-1742436448781-fe5eb077abd4?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Buffet station set up for a catered event" width="640" height="640" loading="lazy">
+            <figcaption>Sample image: Edibles</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="planning">
+            <figure><img src="https://images.unsplash.com/photo-1558478551-16a013a18bd8?auto=format&fit=crop&w=640&h=800&q=70" data-full="https://images.unsplash.com/photo-1558478551-16a013a18bd8?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Planner writing in a notebook at a desk" width="640" height="800" loading="lazy">
+            <figcaption>Sample image: Planning</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="ushers">
+            <figure><img src="https://images.unsplash.com/photo-1607861884586-c7cfaed16290?auto=format&fit=crop&w=640&h=640&q=70" data-full="https://images.unsplash.com/photo-1607861884586-c7cfaed16290?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Outdoor wedding aisle lined with chairs and lights" width="640" height="640" loading="lazy">
+            <figcaption>Sample image: Ushers</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="photography">
+            <figure><img src="https://images.unsplash.com/photo-1551780165-f2a8e6d86eb8?auto=format&fit=crop&w=640&h=800&q=70" data-full="https://images.unsplash.com/photo-1551780165-f2a8e6d86eb8?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Photographer holding a camera" width="640" height="800" loading="lazy">
+            <figcaption>Sample image: Photography</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="anchoring">
+            <figure><img src="https://images.unsplash.com/photo-1730875647697-eace28e2a77e?auto=format&fit=crop&w=640&h=640&q=70" data-full="https://images.unsplash.com/photo-1730875647697-eace28e2a77e?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Host standing on a stage holding a microphone" width="640" height="640" loading="lazy">
+            <figcaption>Sample image: Anchoring</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="protocol">
+            <figure><img src="https://images.unsplash.com/photo-1760228604788-db8a36d5c1a3?auto=format&fit=crop&w=640&h=800&q=70" data-full="https://images.unsplash.com/photo-1760228604788-db8a36d5c1a3?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Security guard watching over a gathering under a tent" width="640" height="800" loading="lazy">
+            <figcaption>Sample image: Protocol</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="decoration">
+            <figure><img src="https://images.unsplash.com/photo-1641996250159-9d2bbfb483fa?auto=format&fit=crop&w=640&h=640&q=70" data-full="https://images.unsplash.com/photo-1641996250159-9d2bbfb483fa?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Wedding reception set with black tables and white linens" width="640" height="640" loading="lazy">
+            <figcaption>Sample image: Decoration</figcaption></figure>
+          </li>
+          <li class="col-6 col-lg-4 gallery__item" data-category="decoration">
+            <figure><img src="https://images.unsplash.com/photo-1772127822525-7eda37383b9f?auto=format&fit=crop&w=640&h=800&q=70" data-full="https://images.unsplash.com/photo-1772127822525-7eda37383b9f?auto=format&fit=crop&w=1600&h=1200&q=80" alt="Elegant outdoor wedding reception with a draped canopy and tables" width="640" height="800" loading="lazy">
+            <figcaption>Sample image: Decoration</figcaption></figure>
+          </li>
+        </ul>
+        <!-- Lightbox (Bootstrap modal) and "View more" button are added in the JavaScript stage -->
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact section section--alt" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h2 class="section-title" id="contact-title">Plan your event from A to Z</h2>
+          <p>Choose one service or several, and tell us about your event.</p>
+        </header>
+
+        <div class="row g-5">
+
+          <!-- Details (left on desktop, below the form on mobile) -->
+          <div class="col-lg-5 order-2 order-lg-1">
+            <ul class="contact__details list-unstyled">
+              <li><i class="bi bi-telephone" aria-hidden="true"></i> <span><a href="tel:+2349066524606">+234 906 652 4606</a> (calls and WhatsApp)</span></li>
+              <li><i class="bi bi-envelope" aria-hidden="true"></i> <span><a href="mailto:sheventafrica@gmail.com">sheventafrica@gmail.com</a></span></li>
+              <li><i class="bi bi-clock" aria-hidden="true"></i> <span>[PLACEHOLDER: business hours]</span></li>
+              <li><i class="bi bi-geo-alt" aria-hidden="true"></i> <span>[PLACEHOLDER: physical address]</span></li>
+            </ul>
+
+            <div class="whatsapp-card">
+              <p>Prefer to chat? Message us on WhatsApp.</p>
+              <a class="btn btn-brand js-whatsapp" href="https://wa.me/2349066524606?text=Hello%20SHEVENT%20AFRICA%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20an%20event." target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i> Start a chat<span class="visually-hidden"> (opens in a new tab)</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Enquiry form -->
+          <div class="col-lg-7 order-1 order-lg-2">
+            <form class="enquiry-form" id="enquiry-form" action="#" method="post" novalidate
+                  data-endpoint="[PLACEHOLDER: form service endpoint]">
+
+              <div class="mb-3">
+                <label class="form-label" for="name">Full name</label>
+                <input class="form-control" type="text" id="name" name="name" autocomplete="name" required>
+              </div>
+
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="email">Email address</label>
+                  <input class="form-control" type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="phone">Phone number</label>
+                  <input class="form-control" type="tel" id="phone" name="phone" autocomplete="tel" required>
+                </div>
+              </div>
+
+              <div class="row g-3 mb-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="eventType">Event type</label>
+                  <select class="form-select" id="eventType" name="eventType" required>
+                    <option value="" selected disabled>Select an event type</option>
+                    <!-- [REVIEW: edit this list to match the events the company handles] -->
+                    <option>Wedding</option>
+                    <option>Birthday</option>
+                    <option>Corporate event</option>
+                    <option>Conference or seminar</option>
+                    <option>Religious event</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="date">Proposed event date <span class="text-body-secondary">(optional)</span></label>
+                  <input class="form-control" type="date" id="date" name="date">
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label" for="location">Event location</label>
+                <input class="form-control" type="text" id="location" name="location" placeholder="City, area or venue" required>
+              </div>
+
+              <fieldset class="mb-3" id="services-group" data-field="services">
+                <legend class="form-label">Services required</legend>
+                <div class="row g-1">
+                  <div class="col-sm-6"><div class="form-check"><input class="form-check-input" type="checkbox" id="svc-1" name="services" value="Decoration"><label class="form-check-label" for="svc-1">Decoration</label></div></div>
+                  <div class="col-sm-6"><div class="form-check"><input class="form-check-input" type="checkbox" id="svc-2" name="services" value="Edibles (Catering)"><label class="form-check-label" for="svc-2">Edibles (Catering)</label></div></div>
+                  <div class="col-sm-6"><div class="form-check"><input class="form-check-input" type="checkbox" id="svc-3" name="services" value="Event Anchoring"><label class="form-check-label" for="svc-3">Event Anchoring</label></div></div>
+                  <div class="col-sm-6"><div class="form-check"><input class="form-check-input" type="checkbox" id="svc-4" name="services" value="Event Planning &amp; Coordination"><label class="form-check-label" for="svc-4">Event Planning &amp; Coordination</label></div></div>
+                  <div class="col-sm-6"><div class="form-check"><input class="form-check-input" type="checkbox" id="svc-5" name="services" value="Photography &amp; Media"><label class="form-check-label" for="svc-5">Photography &amp; Media</label></div></div>
+                  <div class="col-sm-6"><div class="form-check"><input class="form-check-input" type="checkbox" id="svc-6" name="services" value="Protocol, Security &amp; Escort"><label class="form-check-label" for="svc-6">Protocol, Security &amp; Escort</label></div></div>
+                  <div class="col-sm-6"><div class="form-check"><input class="form-check-input" type="checkbox" id="svc-7" name="services" value="Ushers"><label class="form-check-label" for="svc-7">Ushers</label></div></div>
+                </div>
+              </fieldset>
+
+              <div class="mb-3">
+                <label class="form-label" for="message">Additional message <span class="text-body-secondary">(optional)</span></label>
+                <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+              </div>
+
+              <!-- Email subject line used by Formspree -->
+              <input type="hidden" name="_subject" value="New enquiry from the SHEVENT AFRICA website">
+
+              <!-- Honeypot: hidden from people, filled in by bots -->
+              <div class="visually-hidden" aria-hidden="true">
+                <label for="website">Leave this field empty</label>
+                <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+              </div>
+
+              <button class="btn btn-brand" type="submit">Send enquiry</button>
+              <noscript><p class="form-status">JavaScript is needed to send this form. Please use WhatsApp or email us instead.</p></noscript>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="contact__map">
+          <!-- Set CONFIG.mapEmbedUrl in js/script.js (Google Maps > Share > Embed a map > copy the iframe src).
+               Do not guess an address: this stays a placeholder until the business provides one. -->
+          <div id="map-container">
+            <div class="img-placeholder img-placeholder--map" role="img" aria-label="Map placeholder: the business location has not been provided yet">
+              <span>[PLACEHOLDER: Google Maps embed. Awaiting the business address or Google Maps link]</span>
+            </div>
+          </div>
+          <!-- TEMPORARY: remove this note when the real business location is set in js/script.js -->
+          <p class="contact__map-note">Sample map location for layout only. The company's address will replace it.</p>
+          <p class="contact__map-link"><a id="map-link" href="#" target="_blank" rel="noopener noreferrer" hidden>Open in Google Maps<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-5">
+
+        <div class="col-md-6 col-lg-4">
+          <p class="wordmark__name">SHEVENT AFRICA</p>
+          <p class="footer__az">The A–Z of Event Planning.</p>
+          <p class="footer__tagline">Every detail. Beautifully coordinated.</p>
+        </div>
+
+        <nav class="col-6 col-lg-2" aria-label="Footer: explore">
+          <h2 class="footer__heading">Explore</h2>
+          <ul class="list-unstyled">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="col-6 col-lg-3" aria-label="Footer: services">
+          <h2 class="footer__heading">Services</h2>
+          <ul class="list-unstyled">
+            <li><a href="#service-decoration">Decoration</a></li>
+            <li><a href="#service-edibles">Edibles (Catering)</a></li>
+            <li><a href="#service-anchoring">Event Anchoring</a></li>
+            <li><a href="#service-planning">Event Planning &amp; Coordination</a></li>
+            <li><a href="#service-photography">Photography &amp; Media</a></li>
+            <li><a href="#service-protocol">Protocol, Security &amp; Escort</a></li>
+            <li><a href="#service-ushers">Ushers</a></li>
+          </ul>
+        </nav>
+
+        <div class="col-md-6 col-lg-3">
+          <h2 class="footer__heading">Follow us</h2>
+          <!-- Add each real URL in CONFIG.social (js/script.js). Delete the <li> of any platform the company does not use. -->
+          <ul class="social-links list-unstyled">
+            <li><a class="is-placeholder" data-social="instagram" href="#" aria-disabled="true" aria-label="Instagram (link to be added)"><i class="bi bi-instagram" aria-hidden="true"></i></a></li>
+            <li><a class="is-placeholder" data-social="facebook" href="#" aria-disabled="true" aria-label="Facebook (link to be added)"><i class="bi bi-facebook" aria-hidden="true"></i></a></li>
+            <li><a class="is-placeholder" data-social="x" href="#" aria-disabled="true" aria-label="X (link to be added)"><i class="bi bi-twitter-x" aria-hidden="true"></i></a></li>
+            <li><a class="is-placeholder" data-social="tiktok" href="#" aria-disabled="true" aria-label="TikTok (link to be added)"><i class="bi bi-tiktok" aria-hidden="true"></i></a></li>
+            <li><a class="is-placeholder" data-social="linkedin" href="#" aria-disabled="true" aria-label="LinkedIn (link to be added)"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
+            <li><a class="is-placeholder" data-social="youtube" href="#" aria-disabled="true" aria-label="YouTube (link to be added)"><i class="bi bi-youtube" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="year">2026</span> SHEVENT AFRICA. All rights reserved.</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button (number is set by script.js) -->
+  <a class="whatsapp-float js-whatsapp" href="https://wa.me/2349066524606?text=Hello%20SHEVENT%20AFRICA%2C%20I%20would%20like%20to%20make%20an%20enquiry%20about%20an%20event." target="_blank" rel="noopener noreferrer" aria-label="Chat with SHEVENT AFRICA on WhatsApp (opens in a new tab)">
+    <i class="bi bi-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <!-- Scripts: Bootstrap bundle (includes Popper) first, then our own -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
